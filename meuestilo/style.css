@@ -60,13 +60,8 @@ max-width: 200px;
 padding: 10px;
 border-radius: 10px 10px;
 border: 2px solid #ffffff50; 
-position: absolute;
-
- text-align: center;
- left: 20px; 
-  width: 200px;
-  height: 100px;
-
+left: 20px;
+margin: 100px;
 }
 
 .letra{
