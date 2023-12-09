@@ -1,9 +1,12 @@
 *{
+  
     margin: 0px;
     padding: 0px;
 }
 
-body{
+html, body{
+  height: 100%;
+  margin: 0;
     overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url('../img/Autumn_Mushrooms_nature_Pond_Bokeh_570375_3840x2400.jpg');
@@ -13,8 +16,9 @@ body{
 }
 
 .imagem{
-    width: 100%;
-    height: 100vh;
+    width: 100vh;
+    height: 100%;
+    
    
     
 }
@@ -35,7 +39,7 @@ body{
 
 .principal{
     
-   max-width: 1555px;
+    width: 1000px;
     border: 2px solid #ffffff50; 
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.416);
     border-radius: 10px 10px;
@@ -61,7 +65,6 @@ padding: 10px;
 border-radius: 10px 10px;
 border: 2px solid #ffffff50; 
 left: 20px;
-margin: 100px;
 }
 
 .letra{
