@@ -28,12 +28,12 @@ body {
   background: transparent;
   backdrop-filter: blur(10px);
   background-size: cover;
-  width: 100%
+  width: 191%;
 }
 
 .principal {
   
-  height: 75%;
+  height: 570px;
   border: 2px solid #ffffff50;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.416);
   border-radius: 10px 10px;
@@ -60,9 +60,11 @@ body {
   border-radius: 10px 10px;
   border: 2px solid #ffffff50;
   left: 20px;
+  
 }
 
 .jone2 {
+  
   color: white;
   backdrop-filter: blur(20px);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -76,8 +78,13 @@ body {
 .letra {
   color: white;
   margin-top: 45px;
-  font-size: 65%;
-  margin-top: 47%;
+  font-size: 69%;
+  margin-top: 60%;
+  width: 250px;
+  bottom: 30px;
+   left: 0;
+   position: absolute;
+   margin: 22px;
   
 }
 
@@ -119,4 +126,14 @@ div a {
 
 #img-icon3 img{
   width: 25px;
+ 
+}
+
+.icon-planet img{
+ width: 44px;
+ float: left;
+}
+.icon-planet p{
+  color: white;
+
 }
