@@ -92,6 +92,7 @@ body {
 .container {
   display: flex;
   align-items: center;
+  margin-right: 60px
 
 }
 
@@ -126,12 +127,13 @@ div a {
 
 #img-icon3 img{
   width: 25px;
- 
+  
+
 }
 
 .icon-planet img{
  width: 44px;
- float: left;
+
 }
 .icon-planet p{
   color: white;
